@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap css -->
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <!-- style bootstrap -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2 id="demo">My First Javascript.</h2>
+    <button onclick="document.getElementById('result').innerHTML=Date()">change</button>
+    <h4 id="result"></h4>
+    
+    <button onclick="document.getElementById('myimg').src='img/turn on.gif '">turn on</button>
+    <img src="img/turn off.gif" id="myimg">
+    <button ondblclick="document.getElementById('myimg').src='img/turn off.gif'">turn off</button>
+    
+<!-- jquery js -->
+    <script src="js/jquery.slim.min.js"></script>
+<!-- pooper js -->
+    <script src="js/popper.min.js"></script>
+<!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+<!-- main js -->
+ <script src="js/main.js"></script>
+</body>
+</html>
